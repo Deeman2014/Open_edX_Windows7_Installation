@@ -40,5 +40,5 @@ After successfully executing the above steps, you should have a working copy of 
  These steps will not necessarily make the courses available to anyone else, on the internet or otherwise.
  More configuration will be necessarily for that.
  
- But the courses produced could be exported and then imported into a system that is accessible on the internet.
+ The courses produced could, however, be exported and then imported into a system that is accessible from the internet.
  
