@@ -12,10 +12,10 @@ To help ensure that the necessary software has been properly installed and confi
 To reduce the likelihood that the resulting edX development environment software will interfere with, or be disturbed by, other software already running on your computer, a virtual environment is used.
 The virtual environment created allows you to install an additional operating system, where you can then install all the software, and run the operating system and any software installed on it alongside your original operating system.
 
-In our case, we will use Microsoft Windows 7 Enterprise as the host operating system. On that operating system we must install a few software packages, after which we can then use scripts provided by Open edX and supporters to install the rest of the edX platform code.
+In our case, we will use Microsoft Windows 7 Enterprise as the host operating system. On that operating system we must install a few software packages, after which we can then use scripts provided by Open edX and supporters to install the rest of the edX platform software.
 
 You will need the following software:
- #. Windows Enterprise 7 64
+ #. Windows 7 Enterprise 64-bit
  #. Virtual Box 4.3.16r95972
  #. Vagrant 1.5.4
  #. curl 
@@ -26,13 +26,13 @@ It would be wise to go ahead and install these packages as our first step.
 1. Windows 7 Enterprise
 --------------------
 
-First, you will need the host operating system, Windows Enterprise 7.
+First, you will need the host operating system, Windows 7 Enterprise.
 
 A license for Microsoft Windows 7 Enterprise must be acquired separately.
 
 You need the Enterprise (or Ultimate) version because that version comes with a package that you will need, called Network File Sharing Client Servies for Unit (NFS).
 
-Windows 7 Professional and other versions of Windows 7 do not come with the package.
+Windows 7 Professional, and other versions of Windows 7, do not come with the NFS package.
 
 You can buy a copy of Windows 7 Enterprise from Microft, a retail store, or online.
 
