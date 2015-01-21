@@ -5,7 +5,7 @@ This section describes the prerequisites for installing Open edX.
 The Required Software Prerequisites
 -----------------------------------
 
-The Open edX platform has been implemented using a wide variety of software, including the python, ruby, and django programming languages, MySQL and mongodb database systems, the Nginx web server package, the postfix email management system, to name a few.
+The Open edX platform has been implemented using a wide variety of software, including the python, ruby, and django programming languages, MySQL and mongodb database systems, the Nginx web server package, and the postfix email management system, to name a few.
 
 To help ensure that the necessary software has been properly installed and configured to work together, several software installation and provision packages have been utilized.
 
