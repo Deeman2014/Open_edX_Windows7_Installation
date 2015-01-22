@@ -22,24 +22,23 @@ To enable Client for NFS, you can follow these steps:
 
 
 1. Click the Start button at the bottom left of the Windows Start menu. Then type msconfig into the text box just above the menu bar:
-   .. image:: ./_static/msconfig_1.jpg
+     .. image:: ./_static/msconfig_1.jpg
 
 |
-
 2. msconfig.exe will display at the top of the Search results. Click it to launch the msconfig.exe program.
-   .. image:: ./_static/msconfig_2.jpg
+     .. image:: ./_static/msconfig_2.jpg
 
 |
 3. Once the dialog box displays, click the Services tab.
-   .. image:: ./_static/msconfig_3.jpg
+     .. image:: ./_static/msconfig_3.jpg
 
 |
 4. Scroll through the list until you locate Client for NFS
-   .. image:: ./_static/msconfig_4.jpg
+     .. image:: ./_static/msconfig_4.jpg
 
 |
 5. Once found, ensure that it is checked. 
-   .. image:: ./_static/msconfig_5.jpg
+     .. image:: ./_static/msconfig_5.jpg
 
 |
 That completes the process for enabling the Client for NFS service.
