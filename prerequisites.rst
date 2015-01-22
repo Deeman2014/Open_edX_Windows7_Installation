@@ -32,7 +32,7 @@ It would be helpful to go ahead and download these packages as a first step. Lin
 
 First, you will need the host operating system, Microsoft Windows 7 Enterprise.
 
-You need the Enterprise (or Ultimate) version because that version comes with a systems service that the edX platform needs, called Network File Sharing (NFS) Client Servies for Unix.
+You need the Enterprise (or Ultimate) version because that version comes with a systems service that the edX platform needs, called Client for Network File Ssystem (NFS).
 
 Windows 7 Professional, and other versions of Windows 7, do not come with this NFS service.
 
