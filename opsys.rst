@@ -16,50 +16,32 @@ After installing Windows 7 Enterprise, you must ensure that Client for Network F
 
 We can use the msconfig.exe Windows 7 systems program to enable it.
 
-msconfig.exe is the program that displays the programs that have been installed as Windows 7 services. It can also be used to enable or disable the services.
+msconfig.exe is the program that displays the programs that have been installed as Windows 7 services. It can also be used to enable or disable services.
 
 To enable Client for NFS, you can follow these steps:
 
 
-1. Click the Start button at the bottom left of the Windows Start menu.
-   Then type msconfig into the text box just above the menu bar, as shown below:
+1. Click the Start button at the bottom left of the Windows Start menu. Then type msconfig into the text box just above the menu bar:
+   .. image:: ./_static/msconfig_1.jpg
 
 |
-.. image:: ./_static/msconfig_1.jpg
 
- 
-|
-
-2. msconfig.exe will display at the top of the Search results. Click it.
-
-(Or you could enter the complete name msconfig.exe and press ENTER in the textbox.)
-
-Doing so will launch the msconfig.exe program.
-
-.. image:: ./_static/msconfig_2.jpg
-
+2. msconfig.exe will display at the top of the Search results. Click it to launch the msconfig.exe program.
+   .. image:: ./_static/msconfig_2.jpg
 
 |
 3. Once the dialog box displays, click the Services tab.
-
-
-.. image:: ./_static/msconfig_3.jpg
-
+   .. image:: ./_static/msconfig_3.jpg
 
 |
-
 4. Scroll through the list until you locate Client for NFS
-
-.. image:: ./_static/msconfig_4.jpg
-
+   .. image:: ./_static/msconfig_4.jpg
 
 |
 5. Once found, ensure that it is checked. 
+   .. image:: ./_static/msconfig_5.jpg
 
-
-.. image:: ./_static/msconfig_5.jpg
-
-
+|
 That completes the process for enabling the Client for NFS service.
 
 That is the only initial Windows 7 Enterprise configuration needed for the Open edX platform.
