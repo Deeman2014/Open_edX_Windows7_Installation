@@ -30,7 +30,7 @@ It would be helpful to go ahead and download these packages as a first step. Lin
 1. Microsoft Windows 7 Enterprise
 ---------------------------------
 
-First, you will need the host operating system, Microsoft Windows 7 Enterprise.
+First, you will need the host operating system, Microsoft Windows 7 Enterprise, Service Pack 1.
 
 You need the Enterprise (or Ultimate) version because that version comes with a systems service that the edX platform needs, called Client for Network File Ssystem (NFS).
 
@@ -59,7 +59,7 @@ The homepage for Oracle VirtualBox is here: https://www.virtualbox.org/
 You can find the versions you need for 64-bit Windows 7 here:
 
 #. VirtualBox 4.3.16 - http://download.virtualbox.org/virtualbox/4.3.16/VirtualBox-4.3.16-95972-Win.exe 
-#. VirtualBox 4.3.16 Extension Pack - http://download.virtualbox.org/virtualbox/4.3.16/Oracle_VM_Virtualx_Extension_Pack-4.3.16-95972.vbox-extpack
+#. VirtualBox 4.3.16 Extension Pack - http://download.virtualbox.org/virtualbox/4.3.16/Oracle_VM_VirtualBox_Extension_Pack-4.3.16-95972.vbox-extpack
 
 | 
 
