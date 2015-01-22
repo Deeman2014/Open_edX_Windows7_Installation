@@ -7,18 +7,20 @@ We will refer to it as the *host* operating system.
 The Enterprise version will be used, and not the Professional version, because Client for Network File System (NFS) is required, 
 and it is not included in Windows 7 Professional.
 
-(Windows 7 Ultimate also includes Client for NFS, so that it can be used as well.)
+(Windows 7 Ultimate also includes Client for NFS, so it can be used as well.)
 
 Installing Windows 7 Enterprise
 --------------------------------
 
 After installing Windows 7 Enterprise, you must ensure that Client for Network File System (NFS) services have been enabled.
 
-We can use the msconfig.exe Windows 7 systems program to enable it.
+We can use the Windows 7 msconfig.exe program to enable it.
 
-msconfig.exe is the program that displays the programs that have been installed as Windows 7 services. It can also be used to enable or disable services.
+msconfig.exe is the program that displays programs that have been installed as Windows 7 services. 
 
-To enable Client for NFS, you can follow these steps:
+It can also be used to enable or disable services.
+
+To enable Client for NFS, you can use the following steps:
 
 
 1. Click the Start button at the bottom left of the Windows Start menu. Then type msconfig into the text box just above the menu bar:
