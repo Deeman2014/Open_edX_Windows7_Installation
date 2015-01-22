@@ -31,15 +31,15 @@ The Overall Process
 -------------------
 
 The overall installation process will involve the following major steps:
- #. Acquiring/Downloading the required software.
- #. Installing the host operating system.
- #. Installing the curl software program.
- #. Installing the Oracle Virtual Box virtualization package.
- #. Installing the Vagrant provisioning and installation package.
- #. Using Vagrant to download and install the Open edX environment.
- #. Installing several additional software utilities.
- #. Installing and configuring the mail system software.
- #. Installing and configuring the Open edX-related Stanford Custom Theme.
+ #. Acquire and install the host operating system, Windows 7 Enterprise Service Pack 1, and enable the Network File System (NFS) service.
+ #. Acquire/Download the additional required software. 
+ #. Install the Oracle Virtual Box virtualization package.
+ #. Install the Vagrant provisioning and installation package.
+ #. Install the curl command line file transfer program.
+ #. Use Vagrant to download and install the Open edX environment.
+ #. Install several additional useful software utilities.
+ #. Install and configure the mail system software.
+ #. Install and configure the Open edX-related Stanford Custom Theme.
  
 | 
 The Result
