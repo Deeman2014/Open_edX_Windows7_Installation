@@ -23,15 +23,15 @@ Install Windows 7 Enterprise as normal.
 
 To install the Client for Network File System (NFS) service, we can do the following:
 
-1. Click the Start button at the bottom left of the Windows Start menu, find "Control Panel" on the right side of the Menu Selection Panel, and CLICK THAT:
+1. Click the Start button at the bottom left of the Windows Start menu, find "Control Panel" on the right side of the Menu Selection Panel, and CLICK it:
      .. image:: ./_static/Windows_7_Start_Menu_Control_Panel.png
 
 |
-2. Within the Control Panel, find the "Programs and Features" selection, and CLICK that:
+2. Within the Control Panel, find the "Programs and Features" selection, and CLICK it:
      .. image:: ./_static/Windows_7_Control_Panel.png
 
 |
-3. Within the Programs and Features, find the "Turn Windows features on or off" selection, on the left panel, and CLICK that:
+3. Within the Programs and Features, find the "Turn Windows features on or off" selection, on the left panel, and CLICK it:
      .. image:: ./_static/Windows_7_Programs_Features.png
 
 |
