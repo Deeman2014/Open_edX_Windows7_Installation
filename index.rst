@@ -11,15 +11,16 @@ Contents:
 .. toctree::
    :maxdepth: 3
 
-   introduction
-   prerequisites
-   opsys
-   virtual_box
-   vagrant
-   utilities
-   edx
-   email_config
-   custom_theme
+   1_Introduction
+   2_Prerequisites
+   3_Install_Operating_System
+   4_Install_VirtualBox
+   5_Install_Vagrant
+   6_Install_cURL_for_Windows
+   7_Install_edX
+   8_Install_Utilities
+   9_Configure_Email_System
+   10_Install_Custom_Theme
 
 Indices and tables
 ==================
