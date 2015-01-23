@@ -1,4 +1,5 @@
 
+============
 Introduction
 ============
 
@@ -17,7 +18,7 @@ The operating system on which edX is based is Ubuntu, an open source Linux varia
 
 Open edX provides the scripts and documentation that can be used to install the Open edX environment.
 
-|
+
 The Goal
 --------
 
@@ -26,7 +27,7 @@ The ultimate goal is to create a working instance of Open edX on a single comput
 These instructions will describe the steps suggested to install a copy of the Aspen.1 production release of Open edX on a single Windows 7 Enterprise based personal computer.
 
 
-|
+
 The Overall Process
 -------------------
 
@@ -50,7 +51,7 @@ The overall installation process will involve the following major steps:
  
 9. Install and configure the Open edX-related Stanford Custom Theme.
  
-| 
+ 
 The Result
 ----------
 
@@ -62,7 +63,7 @@ After successfully installing the Open edX environment, you will have the abilit
  - Create new courses and content as a content provider and publisher.
  - Access the edX content from a browser running on your host operating system.
  
-|
+
 These steps will not necessarily make the courses available to anyone else, on the internet or otherwise.
  
 More configuration will be necessarily for that.
