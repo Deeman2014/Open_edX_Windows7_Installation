@@ -98,31 +98,41 @@ Running edX
 |
 
   6. Load the edX Learning Management System (LMS) by enter 192.168.33.10 into a browser on your Windows Host system.
+      If the installation went went well, the LMS will load and display a welcome the initial Welcome page.
   
-     .. image:: ./_static/commandline.png
-
-|
- 
-  7. If the installation went went well, the LMS will load and display a welcome the initial Welcome page.
-
-     .. image:: ./_static/commandline.png
-
+     .. image:: ./_static/edX_LMS.png
 
 |
 
-  8. Login  using a pre-built user account: ID: staff@example.com  Password: edx
+  6. Load Studio, the edX Content Management System (CMS), by entering 192.168.33.10:18010 into a browser:
+      
+     .. image:: ./_static/edX_CMS.png
 
-     .. image:: ./_static/commandline.png
+|
+
+  7. Login using a pre-built user account: ID: staff@example.com  Password: edx
+
+     .. image:: ./_static/edX_login.png
+
+|
+
+  8. You are now logged into edX and your Dashboard of registered courses is display.
+
+     .. image:: ./_static/edX_logged_in.png
 
 |  
 
-  9. To close the virtual machine, click the standard Windows icon at the top right of the command window in which Ubuntu is running.
+  9. To log out of edX, CLICK the Staff or Student button at the top right of the Dashboard, and select Log Out.
 
-     .. image:: ./_static/commandline.png
+     .. image:: ./_static/edX_logout.png
+
+|  
+
+  10. To close the virtual machine, click the standard Close Window X icon at the top right of the window in which Ubuntu is running.
+
+      .. image:: ./_static/Ubuntu_shutdown.png
 
 |
 
-  10. Select Power Off the Machine, and press ENTER.
-
-      .. image:: ./_static/commandline.png
+  11. Select the Power Off the machine, option and press CLICK the OK button. The window will close and the virtual machine will be unloaded.
 
