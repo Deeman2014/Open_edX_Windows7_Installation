@@ -21,26 +21,6 @@ Installing Windows 7 Enterprise and Enabling Network File System (NFS)
 
 Install Windows 7 Enterprise as normal.
 
-After installing it, ensure that the Client for Network File System (NFS) service has been enabled.
-
-You need the Windows 7 Enterprise Service Pack 1 version because it comes with a systems service that the edX platform needs, called Client for Network File Ssystem (NFS).
-
-Windows 7 Ultimate also includes Client for NFS. 
-
-Windows 7 Professional, and other versions of Windows 7, do not come with the NFS service.
-
-You can buy a copy of Windows 7 Enterprise from Microsoft, a retail store, or online.
-
-You can also download a 90 day evaluation copy of it from Microsoft here: 
-
-#. http://www.microsoft.com/en-us/evalcenter/evaluate-windows-7-enterprise
-
-
-Installing Windows 7 Enterprise and Enabling Network File System (NFS)
-----------------------------------------------------------------------
-
-Install Windows 7 Enterprise as normal.
-
 To install the Client for Network File System (NFS) service, we can do the following:
 
 1. Click the Start button at the bottom left of the Windows Start menu, find "Control Panel" on the right side of the Menu Selection Panel, and CLICK THAT:
