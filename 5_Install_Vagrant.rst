@@ -30,6 +30,6 @@ Installing Vagrant is very easy:
 2. Follow the prompts. Accept all of the default option settings.
 3. Once installed, reboot your computer.
 
-Vagrant updated the path system variable with the location of the program.
+The Vagrant installer updated the path system variable with the location of the program.
 
 .. image:: ./_static/Vagrant.png
