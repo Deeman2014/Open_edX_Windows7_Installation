@@ -91,12 +91,11 @@ curl is an open source (free) command line tool and library for transferring dat
 
 This tool will be used to download the Vagrant script file that you will use to install the bulk of the edX environment.
 
-Cygwin is a collection of software packages that includes curl.
+cURL for Windows is an MSI installer for cURL, available from Confused by Code.
 
-The homepage for Cygwin is here: http://www.cygwin.com/
+The homepage for Confused by Code is here: http://www.confusedbycode.com/
 
 You can find the curl version that you need for 64-bit Windows here:
 
-#. curl - http://cygwin.com/setup-x86_64.exe
-
-
+#. cURL for Windows web page - http://www.confusedbycode.com/curl/
+#. cURL for Windows direct download link - http://www.confusedbycode.com/curl/curl-7.40.0-win64.msi
