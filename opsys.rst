@@ -5,7 +5,6 @@ Windows 7 Enterprise will be the base operating system onto which all the other 
 
 We will refer to it as the *host* operating system.
 
-<<<<<<< HEAD
 You need the Enterprise (or Ultimate) version because that version comes with a systems service that the edX platform needs, called Client for Network File Ssystem (NFS).
 
 Windows 7 Professional, and other versions of Windows 7, do not come with this NFS service.
@@ -23,7 +22,7 @@ Installing Windows 7 Enterprise and Enabling Network File System (NFS)
 Install Windows 7 Enterprise as normal.
 
 After installing it, ensure that the Client for Network File System (NFS) service has been enabled.
-=======
+
 You need the Windows 7 Enterprise Service Pack 1 version because it comes with a systems service that the edX platform needs, called Client for Network File Ssystem (NFS).
 
 Windows 7 Ultimate also includes Client for NFS. 
@@ -43,11 +42,6 @@ Installing Windows 7 Enterprise and Enabling Network File System (NFS)
 Install Windows 7 Enterprise as normal.
 
 To install the Client for Network File System (NFS) service, we can do the following:
->>>>>>> origin/master
-
-We can use the Windows 7 msconfig.exe program to enable it.
-
-To enable Client for NFS, you can use the following steps:
 
 1. Click the Start button at the bottom left of the Windows Start menu, find "Control Panel" on the right side of the Menu Selection Panel, and CLICK THAT:
      .. image:: ./_static/Windows_7_Start_Menu_Control_Panel.png
