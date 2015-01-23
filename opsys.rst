@@ -5,6 +5,7 @@ Windows 7 Enterprise will be the base operating system onto which all the other 
 
 We will refer to it as the *host* operating system.
 
+<<<<<<< HEAD
 You need the Enterprise (or Ultimate) version because that version comes with a systems service that the edX platform needs, called Client for Network File Ssystem (NFS).
 
 Windows 7 Professional, and other versions of Windows 7, do not come with this NFS service.
@@ -22,32 +23,54 @@ Installing Windows 7 Enterprise and Enabling Network File System (NFS)
 Install Windows 7 Enterprise as normal.
 
 After installing it, ensure that the Client for Network File System (NFS) service has been enabled.
+=======
+You need the Windows 7 Enterprise Service Pack 1 version because it comes with a systems service that the edX platform needs, called Client for Network File Ssystem (NFS).
+
+Windows 7 Ultimate also includes Client for NFS. 
+
+Windows 7 Professional, and other versions of Windows 7, do not come with the NFS service.
+
+You can buy a copy of Windows 7 Enterprise from Microsoft, a retail store, or online.
+
+You can also download a 90 day evaluation copy of it from Microsoft here: 
+
+#. http://www.microsoft.com/en-us/evalcenter/evaluate-windows-7-enterprise
+
+
+Installing Windows 7 Enterprise and Enabling Network File System (NFS)
+----------------------------------------------------------------------
+
+Install Windows 7 Enterprise as normal.
+
+To install the Client for Network File System (NFS) service, we can do the following:
+>>>>>>> origin/master
 
 We can use the Windows 7 msconfig.exe program to enable it.
 
 To enable Client for NFS, you can use the following steps:
 
-1. Click the Start button at the bottom left of the Windows Start menu. Then type msconfig into the text box just above the menu bar:
-     .. image:: ./_static/msconfig_1.jpg
+1. Click the Start button at the bottom left of the Windows Start menu, find "Control Panel" on the right side of the Menu Selection Panel, and CLICK THAT:
+     .. image:: ./_static/Windows_7_Start_Menu_Control_Panel.png
 
 |
-2. msconfig.exe will display at the top of the Search results. Click it to launch the msconfig.exe program.
-     .. image:: ./_static/msconfig_2.jpg
+2. Within the Control Panel, find the "Programs and Features" selection, and CLICK that:
+     .. image:: ./_static/Windows_7_Control_Panel.png
 
 |
-3. Once the dialog box displays, click the Services tab.
-     .. image:: ./_static/msconfig_3.jpg
+3. Within the Programs and Features, find the "Turn Windows features on or off" selection, on the left panel, and CLICK that:
+     .. image:: ./_static/Windows_7_Programs_Features.png
 
 |
-4. Scroll through the list until you locate Client for NFS
-     .. image:: ./_static/msconfig_4.jpg
+4. Scroll through the list until you locate "Services for NFS". 
+     .. image:: ./_static/Windows_7_Windows_Features_On_or_Off.png
 
 |
-5. Once found, ensure that it is checked. 
-     .. image:: ./_static/msconfig_5.jpg
+5. CLICK the + plus sign to display both available options, and then CLICK all three checkboxes:
+     .. image:: ./_static/Windows_7_Windows_Features_4.png
 
 |
-That completes the process for enabling the Client for NFS service.
+6. CLICK the OK button to enabling all the Services for NFS, including the Client for NFS service.
 
-That is the only initial Windows 7 Enterprise configuration needed for the Open edX platform.
+7. Reboot the computer.
 
+That completes the process for enabling Windows 7 Enterprise's Client for NFS service.
