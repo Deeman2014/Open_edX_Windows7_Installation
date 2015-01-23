@@ -35,7 +35,7 @@ The overall installation process will involve the following major steps:
  #. Acquire/Download the additional required software. 
  #. Install the Oracle Virtual Box virtualization package.
  #. Install the Vagrant provisioning and installation package.
- #. Install the curl command line file transfer program.
+ #. Install the curl command line-based file transfer program.
  #. Use Vagrant to download and install the Open edX environment.
  #. Install several additional useful software utilities.
  #. Install and configure the mail system software.
