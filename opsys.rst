@@ -31,7 +31,7 @@ To install the Client for Network File System (NFS) service, we can do the follo
 
    .. image:: ./_static/Windows_7_Control_Panel.png
 |
-4. Within the Programs and Features, find the "Turn Windows features on or off" selection, on the left panel, and CLICK it.
+4. Within Programs and Features, find "Turn Windows features on or off", on the left panel, and CLICK it.
 
    .. image:: ./_static/Windows_7_Programs_Features.png
 |
