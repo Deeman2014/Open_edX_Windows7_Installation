@@ -1,4 +1,4 @@
-5. Install cURL for Windows
+6. Install cURL for Windows
 ===========================
 
 Background
@@ -12,7 +12,9 @@ cURL for Windows is an MSI installer for cURL, available from Confused by Code.
 
 The homepage for Confused by Code is here: http://www.confusedbycode.com/
 
-You can find the curl version that you need for 64-bit Windows here:
+We will use version curl-7.40.0-win64.
+
+You can find the curl version you need for 64-bit Windows here:
 
 * cURL for Windows web page - http://www.confusedbycode.com/curl/
 * cURL for Windows direct download link - http://www.confusedbycode.com/curl/curl-7.40.0-win64.msi
