@@ -13,36 +13,40 @@ You can buy a copy of Windows 7 Enterprise from Microsoft, a retail store, or on
 
 You can also download a 90 day evaluation copy of it from Microsoft here: 
 
-#. http://www.microsoft.com/en-us/evalcenter/evaluate-windows-7-enterprise
+http://www.microsoft.com/en-us/evalcenter/evaluate-windows-7-enterprise
 
 
 Install Windows 7 Enterprise and Enable (NFS)
 ----------------------------------------------------------------------
 
-
 To install the Client for Network File System (NFS) service, we can do the following:
 
-  #. Install Windows 7 Enterprise as normal.
+#. Install Windows 7 Enterprise as normal.
 
-  #. Click the Start button at the bottom left of the Windows Start menu, find "Control Panel" on the right side of the Menu Selection Panel, and CLICK it:
-     .. image:: ./_static/Windows_7_Start_Menu_Control_Panel.png
+#. Click the Start button at the bottom left of the Windows Start menu, find "Control Panel" on the right side of the Menu Selection Panel, and CLICK it:
+ 
+   .. image:: ./_static/Windows_7_Start_Menu_Control_Panel.png
+|
+#. Within the Control Panel, find the "Programs and Features" selection, and CLICK it:
 
-  #. Within the Control Panel, find the "Programs and Features" selection, and CLICK it:
-     .. image:: ./_static/Windows_7_Control_Panel.png
+   .. image:: ./_static/Windows_7_Control_Panel.png
+|
+#. Within the Programs and Features, find the "Turn Windows features on or off" selection, on the left panel, and CLICK it:
 
+   .. image:: ./_static/Windows_7_Programs_Features.png
 
-  #. Within the Programs and Features, find the "Turn Windows features on or off" selection, on the left panel, and CLICK it:
-     .. image:: ./_static/Windows_7_Programs_Features.png
+|
+#. Scroll through the list until you locate "Services for NFS". 
 
+   .. image:: ./_static/Windows_7_Windows_Features_On_or_Off.png
 
-  #. Scroll through the list until you locate "Services for NFS". 
-     .. image:: ./_static/Windows_7_Windows_Features_On_or_Off.png
+|
+#. CLICK the + plus sign to display both available options, and then CLICK all three checkboxes:
+   
+   .. image:: ./_static/Windows_7_Windows_Features_4.png
 
-  #. CLICK the + plus sign to display both available options, and then CLICK all three checkboxes:
-     .. image:: ./_static/Windows_7_Windows_Features_4.png
+#. CLICK the OK button to enable all the Services for NFS, including the Client for NFS service.
 
-  #. CLICK the OK button to enabling all the Services for NFS, including the Client for NFS service.
+#. Reboot the computer.
 
-  #. Reboot the computer.
-
-That completes the process for enabling Windows 7 Enterprise's Client for NFS service.
+That completes the process for enabling Windows 7 Enterprise's NFS services.
