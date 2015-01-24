@@ -18,9 +18,10 @@ Contents:
    5_Install_Vagrant
    6_Install_cURL_for_Windows
    7_Install_edX
-   8_Install_Utilities
-   9_Configure_Email_System
-   10_Install_Custom_Theme
+   8_Starting_Stopping_edX
+   9_Install_Utilities
+   10_Configure_Email_System
+   11_Install_Custom_Theme
 
 Indices and tables
 ==================
