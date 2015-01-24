@@ -1,12 +1,12 @@
-Introduction
+1. Introduction
 ===============
 This section provides an introduction to installing Open edX on a single stand-alone computer.
 
 Open edX is the software that powers edX-related online learning websites.
 
 Open edX includes both a:
- #. Learning management system (LMS) for users to sign up, and register and take courses.
- #. Content management system (CMS), called Studio, to allow content providers to develop and publish content.
+ - Learning management system (LMS) for users to sign up, and register and take courses.
+ - Content management system (CMS), called Studio, to allow content providers to develop and publish content.
 
 The edX environment has been developed using open source software. Open source software is software that has been licensed to be used by the general public for free.
 
