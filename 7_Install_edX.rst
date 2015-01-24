@@ -124,7 +124,7 @@ Running edX
 
   9. To log out of edX, CLICK the Staff or Student button at the top right of the Dashboard, and select Log Out.
 
-     .. image:: ./_static/edX_logout.png
+     .. image:: ./_static/edx_logout.png
 
 |  
 
