@@ -1,8 +1,8 @@
-email Configuration
-===================
+9. email Configuration
+======================
 This section describes how to install and configure the email system.
 
--Installing the Mail System
+- Installing the Mail System
 ---------------------------
 
 <to be completed>
