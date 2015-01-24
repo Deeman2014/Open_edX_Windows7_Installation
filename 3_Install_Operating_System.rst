@@ -1,4 +1,4 @@
-1. Microsoft Windows 7 Enterprise
+3. Microsoft Windows 7 Enterprise
 =================================
 
 Windows 7 Enterprise will be the base operating system onto which all the other software will be installed.
