@@ -1,4 +1,4 @@
-4. Install edX 
+7. Install edX 
 ==============
 
 Background
