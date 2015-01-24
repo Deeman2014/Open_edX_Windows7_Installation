@@ -21,11 +21,11 @@ You can find the Vagrant Version 1.5.4 that you need for 64-bit Windows here:
 | 
 Installing VirtualBox
 ^^^^^^^^^^^^^^^^^^^^^
+To install VirtualBox:
 
 1. Run the downloaded installer program.
 2. Follow the prompts. Accept all of the default option settings.
 3. Once installed, reboot your computer.
 
 The Vagrant installer updated the path system variable with the location of the program.
-
-.. image:: ./_static/Vagrant.png
+  .. image:: ./_static/Vagrant.png
