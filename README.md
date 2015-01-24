@@ -5,8 +5,8 @@ Open edX is the software that powers edX-related online learning websites, such 
 
 Open edX includes a:
  
-- Learning management system (LMS) which allows users to register, and register for and take courses.
-- Content management system (CMS), called Studio, which allows content providers to develop and publish content.
+- Learning management system (LMS) which allows users to register for and take courses.
+- Content management system (CMS), called Studio, which allows authors to develop and publish content.
 
 The Open edX environment has been built on open source software. Open source software is software that has been licensed to be used by the general public for free.
 
@@ -32,7 +32,7 @@ The Overall Process
 
 The overall installation process will involve the following major steps:
  
-1. Install the host operating system, Windows 7 Enterprise Service Pack 1, and enable the Network File System (NFS) service.
+1. Install Windows 7 Enterprise Service Pack 1 and enable the Network File System (NFS) service.
  
 2. Download additional required software. 
  
@@ -65,9 +65,7 @@ After successfully installing the Open edX environment, you will have the abilit
  
 
 These steps will not necessarily make the courses available to anyone else, over the internet or otherwise.
- 
-More configuration will be necessarily for that.
- 
+
 The courses developed using this system could, however, be exported and then imported into a system that is accessible from the internet.
 
 
@@ -75,10 +73,7 @@ The courses developed using this system could, however, be exported and then imp
 
 Initial Contributors
 --------------------
-Derrick Lewis
-
-Fernan Aguero
-
-Jonathan Peter
-
-Nilesh Londhe
+- Derrick Lewis
+- Fernan Aguero
+- Jonathan Peter
+- Nilesh Londhe
