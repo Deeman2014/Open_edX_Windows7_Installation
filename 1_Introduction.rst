@@ -46,9 +46,10 @@ The Result
 ----------
 
 After successfully installing the Open edX environment, you will have the ability to:
- #. Login to both the Learning Management System (LMS) and to Studio, the Content Management System (CMS).
- #. Register as a new user (student or staff member).
- #. Register for a course (student or staff member)
+ #. Login to the Learning Management System (LMS).
+ #. Login to the Content Management System (CMS), called Studio.
+ #. Register as a new user (as a student or staff member).
+ #. Register for a course (as a student or staff member).
  #. Create new courses and content as a content provider and publisher.
  #. Access the edX content from a browser running on your host operating system.
  
