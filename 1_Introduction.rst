@@ -14,13 +14,13 @@ edX software utilizes more than twenty four open source software languages, util
 
 The operating system on which edX is based is Ubuntu, an open source Linux variant. The primary base programming language used to create edX is python.
 
-Open edX provides the scripts and documentation that can be used to install the Open edX environment.
+Open edX provides scripts and documentation that can be used to install the Open edX environment.
 
 |
 The Goal
 --------
 
-The ultimate goal is to create a working instance of Open edX on a single computer, whereby a content developer could immediately use it to develop Open edX courses.
+The ultimate goal of this documentation is to help you create a working instance of Open edX on a single computer, whereby a content developer could immediately use it to develop Open edX courses.
 
 These instructions will describe the steps suggested to install a copy of the Aspen.1 production release of Open edX on a single Windows 7 Enterprise based personal computer.
 
@@ -31,13 +31,13 @@ The Overall Process
 -------------------
 
 The overall installation process will involve the following major steps:
- #. Acquire and install the host operating system, Windows 7 Enterprise Service Pack 1, and enable the Network File System (NFS) service.
- #. Acquire/Download the additional required software. 
+ #. Install the host operating system, Windows 7 Enterprise Service Pack 1, and enable the Network File System (NFS) service.
+ #. Download additional required software. 
  #. Install the Oracle Virtual Box virtualization package.
- #. Install the Vagrant provisioning and installation package.
- #. Install the curl command line-based file transfer program.
+ #. Install the Vagrant provisioning and configuration package.
+ #. Install the cURL for Windows command line-based file transfer program.
  #. Use Vagrant to download and install the Open edX environment.
- #. Install several additional useful software utilities.
+ #. Install additional useful software utilities.
  #. Install and configure the mail system software.
  #. Install and configure the Open edX-related Stanford Custom Theme.
  
@@ -48,7 +48,7 @@ The Result
 After successfully installing the Open edX environment, you will have the ability to:
  #. Login to both the Learning Management System (LMS) and to Studio, the Content Management System (CMS).
  #. Register as a new user (student or staff member).
- #. Register for a course as a student.
+ #. Register for a course (student or staff member)
  #. Create new courses and content as a content provider and publisher.
  #. Access the edX content from a browser running on your host operating system.
  
