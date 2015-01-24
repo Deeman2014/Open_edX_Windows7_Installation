@@ -22,7 +22,7 @@ You will need the following software:
  #. Windows 7 Enterprise 64-bit
  #. Virtual Box 4.3.16r95972
  #. Vagrant 1.5.4
- #. curl 
+ #. cURL for Windows 7.40.0
  
 It would be helpful to go ahead and download these packages as a first step. Links to the packages are provided below.
 
@@ -32,7 +32,7 @@ It would be helpful to go ahead and download these packages as a first step. Lin
 
 First, you will need the host operating system, Microsoft Windows 7 Enterprise, Service Pack 1.
 
-You need the Enterprise (or Ultimate) version because that version comes with a systems service that the edX platform needs, called Client for Network File Ssystem (NFS).
+You need the Enterprise (or Ultimate) version because that version comes with a systems service that the edX platform needs, called Client for Network File System (NFS).
 
 Windows 7 Professional, and other versions of Windows 7, do not come with this NFS service.
 
@@ -40,62 +40,58 @@ You can buy a copy of Windows 7 Enterprise from Microsoft, a retail store, or on
 
 You can also download a 90 day evaluation copy of it from Microsoft here: 
 
-#. http://www.microsoft.com/en-us/evalcenter/evaluate-windows-7-enterprise
+- http://www.microsoft.com/en-us/evalcenter/evaluate-windows-7-enterprise
 
 | 
 2. Oracle VirtualBox
 --------------------
 
-Oracle VirtualBox is an open source (free) software package that will allow you to install additional operating systems onto your computer.
+Oracle VirtualBox is open source software you can use to install additional operating systems onto your computer.
 
-VirtualBox will give you the ability to create a *virtual machine environment*, which is a separate operating system environment into which you can install software and save data files.
+VirtualBox will give you the ability to create a *virtual machine environment*, which is a separate operating system environment into which you can install software and store data.
 
-You need Oracle VirtualBox Version 4.3.16, and the companion extension pack for it.
+You will need Oracle VirtualBox Version 4.3.16, and the companion extension pack for it.
 
-Note that earlier or more recent versions of this package need not necessarily work. So, be sure to get this version, in particular.
+NB: Earlier or more recent versions of this package need not necessarily work, so, be sure to get this version, in particular.
 
-The homepage for Oracle VirtualBox is here: https://www.virtualbox.org/
+The homepage for Oracle VirtualBox: https://www.virtualbox.org/
 
 You can find the versions you need for 64-bit Windows 7 here:
 
-#. VirtualBox 4.3.16 - http://download.virtualbox.org/virtualbox/4.3.16/VirtualBox-4.3.16-95972-Win.exe 
-#. VirtualBox 4.3.16 Extension Pack - http://download.virtualbox.org/virtualbox/4.3.16/Oracle_VM_VirtualBox_Extension_Pack-4.3.16-95972.vbox-extpack
+- http://download.virtualbox.org/virtualbox/4.3.16/VirtualBox-4.3.16-95972-Win.exe 
+- http://download.virtualbox.org/virtualbox/4.3.16/Oracle_VM_VirtualBox_Extension_Pack-4.3.16-95972.vbox-extpack
 
 | 
 
 3. Vagrant
 ----------
 
-Vagrant is an open source (free) software package that will allow you to run scripts to more easily and reliably install and configure software.
-
-It is very useful for installing simple as well as complex software.
+Vagrant is open source software that will allow you to run scripts to more easily and reliably install and configure software.
 
 A single Vagrant script will install the bulk of the operating environment for Open edX.
 
 The Vagrant software version we will use is 1.5.4.
 
-Note that earlier or more recent versions of this package need not necessarily work. So, be sure to get this version, in particular.
+NB: Earlier or more recent versions of this package need not necessarily work, so, be sure to get this version, in particular.
 
-The homepage for Vagrant is here: https://www.vagrantup.com/
+The homepage for Vagrant: https://www.vagrantup.com/
 
 You can find the Vagrant Version 1.5.4 that you need for 64-bit Windows here:
 
-#. Vagrant 1.5.4 - https://dl.bintray.com/mitchellh/vagrant/vagrant_1.5.4.msi 
+- https://dl.bintray.com/mitchellh/vagrant/vagrant_1.5.4.msi 
 
 | 
 
-4. curl
--------
+4. cURL for Windows
+-------------------
 
-curl is an open source (free) command line tool and library for transferring data and downloading software using URL syntax.
+cURL for Windows is an open source command line tool and library for transferring data and downloading software using URL syntax.
 
 This tool will be used to download the Vagrant script file that you will use to install the bulk of the edX environment.
 
-cURL for Windows is an MSI installer for cURL, available from Confused by Code.
-
-The homepage for Confused by Code is here: http://www.confusedbycode.com/
+The homepage for Confused by Code: http://www.confusedbycode.com/
 
 You can find the curl version that you need for 64-bit Windows here:
 
-#. cURL for Windows web page - http://www.confusedbycode.com/curl/
-#. cURL for Windows direct download link - http://www.confusedbycode.com/curl/curl-7.40.0-win64.msi
+- cURL for Windows web page - http://www.confusedbycode.com/curl/
+- cURL for Windows direct download link - http://www.confusedbycode.com/curl/curl-7.40.0-win64.msi
