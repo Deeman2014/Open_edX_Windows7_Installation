@@ -4,7 +4,7 @@
 Background
 ^^^^^^^^^^
 
-Oracle VirtualBox is an open source (free) software package that allows you to install additional operating systems onto your computer.
+Oracle VirtualBox is an open source software that allows you to install additional operating systems onto your computer.
 
 VirtualBox extends the capabilities of your existing computer so that it can run multiple operating systems (inside multiple virtual machines) at the same time.
 
@@ -27,16 +27,13 @@ The homepage for Oracle VirtualBox is here: https://www.virtualbox.org/
 
 You can find the versions you need for 64-bit Windows 7 here:
 
-#. VirtualBox 4.3.16 - http://download.virtualbox.org/virtualbox/4.3.16/VirtualBox-4.3.16-95972-Win.exe 
-#. VirtualBox 4.3.16 Extension Pack - http://download.virtualbox.org/virtualbox/4.3.16/Oracle_VM_Virtualx_Extension_Pack-4.3.16-95972.vbox-extpack
+- http://download.virtualbox.org/virtualbox/4.3.16/VirtualBox-4.3.16-95972-Win.exe 
+- http://download.virtualbox.org/virtualbox/4.3.16/Oracle_VM_Virtualx_Extension_Pack-4.3.16-95972.vbox-extpack
 
 |
 Installing VirtualBox
 ^^^^^^^^^^^^^^^^^^^^^
 
-Installing VirtualBox is very simple:
-
 1. Click the previously downloaded VirtualBox-4.3.16-95972-Win.exe setup program.
 2. Follow the prompts to install. Accept all of the default option settings.
 
-That is all there is to installing VirtualBox.
