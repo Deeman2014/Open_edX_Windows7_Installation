@@ -1,6 +1,5 @@
 Utilities
-===============
-Several additional software utility programs are required to install Open edX.
+=========
+Several additional utility programs will make working with Open edX much easier.
 
--Additional Software Utilities
-----------------
+<To be completed>
