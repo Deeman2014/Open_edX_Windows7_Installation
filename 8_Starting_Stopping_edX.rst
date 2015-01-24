@@ -18,31 +18,29 @@ Starting edX
      .. image:: ./_static/VirtualBox_icon.png
 
 
-2. Click the Aspen entry on the lefthand side of the VirtualBox interface, and then click Start from the menu above.
+2. Click the Aspen entry on the lefthand side, and then click the Start button on the toolbar.
      .. image:: ./_static/Virtual_Box_4.3.16_edX.png
 
 |
 
-3. The virtual machine will start in a command window. Some commands will be run in that window. Wait for them to complete.
+3. The virtual machine will start in a command window. Some commands will execute there. Wait for them to complete.
      .. image:: ./_static/virtual_machine_start.png
 
 |
 
-4. After the login screen has loaded, wait another 10-15 seconds to allow any background proccesses to complete.
+4. After the login screen has loaded, wait 10-15 seconds to allow any background proccesses to complete.
      .. image:: ./_static/Ubuntu_running.png
 
 
      edX is already loaded at this point. You do not have to login. 
 |
 
-5. Load the edX Learning Management System (LMS) by enter 192.168.33.10 into a browser on your Windows Host system.
-     If the installation went went well, the LMS will load and display a welcome the initial Welcome page.
-  
+5. Load the Learning Management System by entering 192.168.33.10 into a browser in Windows.
      .. image:: ./_static/edX_LMS.png
 
 |
 
-6. Load Studio, the edX Content Management System (CMS), by entering 192.168.33.10:18010 into a browser:
+6. Load the edX Content Management System (CMS) by entering 192.168.33.10:18010 into a browser:
      .. image:: ./_static/edX_CMS.png
 
 |
