@@ -1,4 +1,4 @@
-Prerequisites
+2. Prerequisites
 =============
 This section describes the prerequisites for installing Open edX.
 
