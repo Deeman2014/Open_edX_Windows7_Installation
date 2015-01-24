@@ -1,27 +1,27 @@
 Introduction
 ============
 
-Open edX is the software that powers edX-related online learning websites.
+Open edX is the software that powers edX-related online learning websites, such as edX, HarvardX, and MITX, among many others.
 
-Open edX includes both a:
+Open edX includes a:
  
-- Learning management system (LMS) for users to sign up, and register and take courses.
-- Content management system (CMS), called Studio, to allow content providers to develop and publish content.
+- Learning management system (LMS) which allows users to register, and register for and take courses.
+- Content management system (CMS), called Studio, which allows content providers to develop and publish content.
 
-The edX environment has been developed using open source software. Open source software is software that has been licensed to be used by the general public for free.
+The Open edX environment has been built on open source software. Open source software is software that has been licensed to be used by the general public for free.
 
 edX software utilizes more than twenty four open source software languages, utilities, and technologies.
 
-The operating system on which edX is based is Ubuntu, an open source Linux variant. The primary base programming language used to create edX is python.
+The operating system on which edX is based is Ubuntu, an open source variant of Linux. The primary base programming language used to create edX is python.
 
-Open edX provides the scripts and documentation that can be used to install the Open edX environment.
+Open edX provides scripts and documentation that can be used to install the Open edX environment.
 
 |
 
 The Goal
 --------
 
-The ultimate goal is to create a working instance of Open edX on a single computer, whereby a content developer could immediately use it to develop Open edX courses.
+The ultimate goal of this documentation is to help you install a working copy of Open edX on a single computer, whereby a content developer could immediately use it to develop Open edX courses.
 
 These instructions will describe the steps suggested to install a copy of the Aspen.1 production release of Open edX on a single Windows 7 Enterprise based personal computer.
 
@@ -32,9 +32,9 @@ The Overall Process
 
 The overall installation process will involve the following major steps:
  
-1. Acquire and install the host operating system, Windows 7 Enterprise Service Pack 1, and enable the Network File System (NFS) service.
+1. Install the host operating system, Windows 7 Enterprise Service Pack 1, and enable the Network File System (NFS) service.
  
-2. Acquire/Download the additional required software. 
+2. Download additional required software. 
  
 3. Install the Oracle Virtual Box virtualization package.
  
@@ -64,7 +64,7 @@ After successfully installing the Open edX environment, you will have the abilit
  - Access the edX content from a browser running on your host operating system.
  
 
-These steps will not necessarily make the courses available to anyone else, on the internet or otherwise.
+These steps will not necessarily make the courses available to anyone else, over the internet or otherwise.
  
 More configuration will be necessarily for that.
  
