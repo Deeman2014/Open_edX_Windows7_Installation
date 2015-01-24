@@ -23,16 +23,15 @@ Starting edX
 
 |
 
-3. The virtual machine will start in a command window. Some commands will execute there. Wait for them to complete.
+3. The virtual machine will start in a command window. Commands will execute there.
      .. image:: ./_static/virtual_machine_start.png
 
 |
 
-4. After the login screen has loaded, wait 10-15 seconds to allow any background proccesses to complete.
+4. A login screen will display while edX loads, in 30 secs or so. You do not need to login.
      .. image:: ./_static/Ubuntu_running.png
 
 
-     edX is already loaded at this point. You do not have to login. 
 |
 
 5. Load the Learning Management System by entering 192.168.33.10 into a browser in Windows.
