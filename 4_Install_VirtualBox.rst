@@ -4,7 +4,7 @@
 Background
 ^^^^^^^^^^
 
-Oracle VirtualBox is an open source software that allows you to install additional operating systems onto your computer.
+Oracle VirtualBox is open source software that allows you to install additional operating systems onto your computer.
 
 VirtualBox extends the capabilities of your existing computer so that it can run multiple operating systems (inside multiple virtual machines) at the same time.
 
