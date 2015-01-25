@@ -6,11 +6,11 @@ Background
 
 The edX platform is based an a wide variety of software components.
 
-Each component must be of the right (compatible) version, and must be configured to work with the others well.
+Each component must be of the right (compatible) version, and must be configured to work well with the other components.
 
-To help ensure that all the software has been installed and configured as required, installation and provision software from Vagrant and Ansible have been used.
+To help ensure that all the software has been installed and configured as required, installation, provisioning, and configuration software from Vagrant and Ansible have been used.
 
-A script written using the Vagrant scripting language has been used, which calls other pograms, including Ansible scripts.
+A script written in the Vagrant scripting language will be used, which will call other pograms, including Ansible scripts.
 
 This makes it possible for a person to install the base edX platform with just a few commands.
 
@@ -67,4 +67,4 @@ All you have to do is create the directory from which you would like to run edX,
       vagrant up
 
  7.  Reboot the computer.
-  
+ 
