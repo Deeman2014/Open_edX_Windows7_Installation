@@ -5,7 +5,7 @@ Windows 7 Enterprise will be the base operating system onto which all the other 
 
 We will refer to it as the *host* operating system.
 
-You need the Enterprise (or Ultimate) version because that version comes with a systems service that the edX platform needs, called Client for Network File Ssystem (NFS).
+You need the Enterprise (or Ultimate) version because that version comes with a systems service that the edX platform needs, called Client for Network File System (NFS).
 
 Windows 7 Professional, and other versions of Windows 7, do not come with this NFS service.
 
