@@ -4,7 +4,7 @@
 Background
 ^^^^^^^^^^
 
-Vagrant is an open source software that will allow you to run scripts to more easily and reliably install and configure software.
+Vagrant is open source software that will allow you to run scripts to more easily and reliably install and configure software.
 
 A single Vagrant script will install the bulk of the operating environment for Open edX.
 
