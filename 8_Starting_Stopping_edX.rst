@@ -49,7 +49,7 @@ Starting edX
 
 |
 
-8. You are now logged into edX and your Dashboard of registered courses is display.
+8. You are now logged into edX and your Dashboard of registered courses is displayed.
      .. image:: ./_static/edX_logged_in.png
 
 |  
