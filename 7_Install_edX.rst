@@ -35,9 +35,11 @@ So, it will take a while to download.
 
 The Vagrant installation script will download the box, create a VirtualBox virtual machine instance with Ubuntu as the operating system, and then install and configure all the code it needs into Ubuntu within that virtual machine.
 
-We will install the edX Platform manually by running the Vagrant script from the command line.
+We will install the edX Platform by running the Vagrant script from the command line.
 
 All you have to do is create the directory from which you would like to run edX, and run the script, as follows.
+
+In our example, edx_aspen will be the name of the directory. You can, however, use any name you like.
 
 
 
@@ -55,8 +57,16 @@ All you have to do is create the directory from which you would like to run edX,
       cd \edx_aspen
 
 
- 4. Download the Aspen.1 fullstack Vagrant script file, using the cURL programs, by copy and pasting this line into the command prompt window, and pressing RETURN:
+ 4. Download the Vagrant script file, using the cURL programs, by copy and pasting this line into the command prompt window, and pressing RETURN:
       curl -L https://raw.githubusercontent.com/edx/configuration/master/vagrant/release/fullstack/Vagrantfile > Vagrantfile
+   
+   Note: The Vagrantfile you will download defaults to installing the kifli version of edX, not the aspen.1 version.
+   
+   To install the aspen.1 version, we have to either modify the Vagrantfile, use one already modified, or set an environment variable.
+   
+   I will test the environment variable shortly, to confirm that and how it works for Windows 7 Enterprise.
+   
+   I modified a Vagrantfile to install aspen.1. You can find it  in the _static folder of this repo. You could use that one. 
 
 
  5. Install the Vagrant hostsupdater plugin:
@@ -67,4 +77,3 @@ All you have to do is create the directory from which you would like to run edX,
       vagrant up
 
  7.  Reboot the computer.
- 
