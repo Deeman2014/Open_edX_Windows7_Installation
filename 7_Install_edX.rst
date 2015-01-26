@@ -57,16 +57,14 @@ In our example, edx_aspen will be the name of the directory. You can, however, u
       cd \edx_aspen
 
 
- 4. Download the Vagrant script file, using the cURL programs, by copy and pasting this line into the command prompt window, and pressing RETURN:
-      curl -L https://raw.githubusercontent.com/edx/configuration/master/vagrant/release/fullstack/Vagrantfile > Vagrantfile
-   
-   Note: The Vagrantfile you will download defaults to installing the kifli version of edX, not the aspen.1 version.
-   
-   To install the aspen.1 version, we have to either modify the Vagrantfile, use one already modified, or set an environment variable.
-   
-   I will test the environment variable shortly, to confirm that and how it works for Windows 7 Enterprise.
-   
-   I modified a Vagrantfile to install aspen.1. You can find it  in the _static folder of this repo. You could use that one. 
+ 4. Download the Vagrant script file, using the cURL programs, by copy and pasting curl line below into the command prompt window, and pressing ENTER.  (You can use the mouse to copy the following line. You will have to use the mouse to also paste it into the command line window. You cannot use CTRL C followed by CTRL V.)
+ 
+    curl -L https://raw.githubusercontent.com/edx/configuration/master/vagrant/release/fullstack/Vagrantfile > Vagrantfile
+
+
+    Note: The Vagrantfile you will download defaults to installing the kifli version of edX, not the aspen.1 version.
+
+    To install the aspen.1 version, you have to either modify the Vagrantfile, use one already modified, or set an environment variable. There is a modified Vagrantfile for aspen.1. in the _static folder of this repo. It has been tested. You can use that. I will test the environment variable approach shortly, to confirm that, and how, it works on Windows 7 Enterprise.
 
 
  5. Install the Vagrant hostsupdater plugin:
