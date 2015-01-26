@@ -43,36 +43,45 @@ In our example, edx_aspen will be the name of the directory. You can, however, u
 
 
 
-1.  Open a command line session with Administrator Rights, by Clicking the Start Button, Accessories, and Command Prompt. 
+1. Open a command line session with Administrator Rights, by Clicking the Start Button, Accessories, and Command Prompt. 
      Right click it, and select Run as Administrator.
 
      .. image:: ./_static/commandline.png
 
-
+|
 2. Create a directory for edX: 
       md \edx_aspen
 
-
+|
 3. Make that directory the current directory: 
       cd \edx_aspen
 
-
-4. Download the Vagrant script file, using the cURL programs, by copy and pasting curl line below into the command prompt window, and pressing ENTER.  (You can use the mouse to copy the following line. You will have to use the mouse to also paste it into the command line window. You cannot use CTRL C followed by CTRL V.)
- 
-   curl -L https://raw.githubusercontent.com/edx/configuration/master/vagrant/release/fullstack/Vagrantfile > Vagrantfile
-
-
-   Note: The Vagrantfile you will download defaults to installing the kifli version of edX, not the aspen.1 version.
-
-   To install the aspen.1 version, you have to either modify the Vagrantfile, use one already modified, or set an environment variable. There is a modified Vagrantfile for aspen.1. in the _static folder of this repo. It has been tested. You can use that. I will test the environment variable approach shortly, to confirm that, and how, it works on Windows 7 Enterprise.
+|
+4. Download the Vagrant script file, using the cURL programs, by copy and pasting curl line below into the command prompt window, and pressing ENTER. (You can use the mouse to copy the following line. You will have to use the mouse to also paste it into the command line window. You cannot use CTRL C followed by CTRL V.)
+    curl -L https://raw.githubusercontent.com/edx/configuration/master/vagrant/release/fullstack/Vagrantfile > Vagrantfile
 
 
+   Note: The Vagrantfile you will download with the previous command will default to installing the kifli version of edX, not the aspen.1 version.
+
+   To install the aspen.1 version, you have to either:
+
+   #. Create an *OPEN_RELEASE* environment variable in Windows
+       * Create the following environment variable: OPEN_RELEASE="aspen.1"  
+       * Reboot the computer immediately after doing so.
+   
+   #. Use an already modified Vagrantfile. One can be found on this repository: _static/Vagrantfile
+
+
+   #. Modify the newly downloaded Vagrantfile, replacing the default reference with a reference to the aspen.1 version.
+   
+|
 5. Install the Vagrant hostsupdater plugin:
       vagrant plugin install vagrant-hostsupdater
 
-
+|
 6. Create the Fullstack virtual machine, by having Vagrant run the script:
       vagrant up
 
+|
 7.  Reboot the computer.
       
