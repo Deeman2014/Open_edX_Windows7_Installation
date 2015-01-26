@@ -69,7 +69,7 @@ In our example, edx_aspen will be the name of the directory. You can, however, u
        * Create the following environment variable: OPEN_RELEASE="aspen.1"  
        * Reboot the computer immediately after doing so.
    
-   #. Use an already modified Vagrantfile. One can be found on this repository: _static/Vagrantfile
+   #. Use an already modified Vagrantfile. One can be found in this repository: _static/Vagrantfile
 
 
    #. Modify the newly downloaded Vagrantfile, replacing the default reference with a reference to the aspen.1 version.
