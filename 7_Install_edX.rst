@@ -64,8 +64,17 @@ In our example, "edx_aspen" will be the name of the directory. You can, however,
    To install the aspen.1 version, you have to either:
 
    1. Create an *OPEN_RELEASE* environment variable in Windows
-       * Create the Windows environment variable: OPEN_RELEASE="aspen.1"  
-       * Reboot the computer immediately after doing so.
+       * Create the Windows environment variable: OPEN_RELEASE="aspen.1"
+       
+       To do so:
+          1. Click the Start button, right click My Computer and select Properties.
+          2. Click the Advanced Systems Settings option on the panel on the left.
+          3. Click the Environment Variables button.
+          4. In the System Variables List, at the bottom half of the window, click the New... button.
+          5. Enter as the Variable Name: OPEN_RELEASE
+          6. Enter as the Variable Value: aspen.1
+          7. Click OK to save the new system variable.
+          8. Reboot the computer immediately.
    
    2. Use an already modified Vagrantfile. One can be found in this repository: _static/Vagrantfile
 
