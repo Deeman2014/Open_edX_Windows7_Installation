@@ -63,14 +63,14 @@ In our example, "edx_aspen" will be the name of the directory. You can, however,
 
    To install the aspen.1 version, you have to either:
 
-   #. Create an *OPEN_RELEASE* environment variable in Windows
-       * Create the following environment variable: OPEN_RELEASE="aspen.1"  
+   1. Create an *OPEN_RELEASE* environment variable in Windows
+       * Create the Windows environment variable: OPEN_RELEASE="aspen.1"  
        * Reboot the computer immediately after doing so.
    
-   #. Use an already modified Vagrantfile. One can be found in this repository: _static/Vagrantfile
+   2. Use an already modified Vagrantfile. One can be found in this repository: _static/Vagrantfile
 
 
-   #. Modify the newly downloaded Vagrantfile, replacing the default reference with a reference to the aspen.1 version.
+   3. Modify the newly downloaded Vagrantfile, replacing the default reference with a reference to the aspen.1 version.
    
 |
 5. Install the Vagrant hostsupdater plugin:
