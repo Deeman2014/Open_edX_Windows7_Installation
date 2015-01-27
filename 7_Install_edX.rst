@@ -18,7 +18,7 @@ This makes it possible for a person to install the base edX platform with just a
 Prerequisites
 ^^^^^^^^^^^^^
 
-To install Open edX using the Vagrant script, you must have already installed the following software:
+To install Open edX using the Vagrant script, the following software must have already been installed:
 
 1. Windows 7 Enterprise, with Services for NFS enabled.
 2. Oracle VirtualBox 4.3.16 and its extension pack.
@@ -29,7 +29,7 @@ To install Open edX using the Vagrant script, you must have already installed th
 Installing the edX Platform
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The edX Platform is packaged in a VirtualBox image, or box. The box for the edX Aspen.1 release is 2.78GB.
+The edX Platform is packaged in a VirtualBox image, or "box". The size of the box for the edX Aspen.1 release is 2.78GB.
 
 So, it will take a while to download.
 
@@ -37,9 +37,9 @@ The Vagrant installation script will download the box, create a VirtualBox virtu
 
 We will install the edX Platform by running the Vagrant script from the command line.
 
-All you have to do is create the directory from which you would like to run edX, and run the script, as follows.
+All you have to do is create the directory from which you would like to run edX, and run the Vagrant script.
 
-In our example, edx_aspen will be the name of the directory. You can, however, use any name you like.
+In our example, "edx_aspen" will be the name of the directory. You can, however, use any name you like.
 
 
 
