@@ -8,7 +8,7 @@ The edX platform is based an a wide variety of software components.
 
 Each component must be of the right (compatible) version, and must be configured to work well with the other components.
 
-To help ensure that all the software has been installed and configured as required, installation, provisioning, and configuration software from Vagrant and Ansible have been used.
+To help ensure that all the software has been installed and configured as required, installation, provisioning, and configuration software from Vagrant and Ansible has been used.
 
 A script written in the Vagrant scripting language will be used, which will call other pograms, including Ansible scripts.
 
