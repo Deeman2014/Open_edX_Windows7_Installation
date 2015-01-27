@@ -29,9 +29,7 @@ To install Open edX using the Vagrant script, the following software must have a
 Installing the edX Platform
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The edX Platform is packaged in a VirtualBox image, or "box". The size of the box for the edX Aspen.1 release is 2.78GB.
-
-So, it will take a while to download.
+The edX Platform is packaged in a VirtualBox image, or "box". The size of the box for the edX Aspen.1 release is 2.78GB. So, it will take a while to download.
 
 The Vagrant installation script will download the box, create a VirtualBox virtual machine instance with Ubuntu as the operating system, and then install and configure all the code it needs into Ubuntu within that virtual machine.
 
