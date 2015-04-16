@@ -1,8 +1,6 @@
 11. Install Custom Theming
 ==========================
-This section describes how to install a custom theme for your Open edX instance.
-
-It is possible to customize your instance of Open edX, though it might now be as simple and straightforward as some mightlike.
+It is possible to customize your instance of Open edX, though it might not be as simple and straightforward as some mightlike.
 
 The team at edX.org says that they plan to provide a more straightforward means of doing so.
 
