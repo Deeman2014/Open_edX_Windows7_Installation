@@ -29,7 +29,11 @@ To install Open edX using the Vagrant script, the following software must have a
 Installing the edX Platform
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The edX Platform is packaged in a VirtualBox image, or "box". The size of the box for the birch release is approximately 2.8GB. So, it will take a while to download.
+The edX Platform is packaged in a VirtualBox image or "box". 
+
+For the purposes of these instructions, we will install the birch release of edX. 
+
+The size of the box for the birch release is approximately 2.8GB. It will take a while to download.
 
 The Vagrant installation script will download the box, create a VirtualBox virtual machine instance with Ubuntu as the operating system, and then install and configure all the code it needs into Ubuntu within that virtual machine.
 
@@ -37,8 +41,7 @@ We will install the edX Platform by running the Vagrant script from the command 
 
 All you have to do is create the directory from which you would like to run edX, and run the Vagrant script.
 
-In our example, "edx_birch" will be the name of the directory. You can, however, use any name you like.
-
+So, let "edx_birch" will be the name of the directory. You can, however, use any name you like.
 
 
 1. Open a command line session with Administrator Rights, by Clicking the Start Button, Accessories, and Command Prompt. 
