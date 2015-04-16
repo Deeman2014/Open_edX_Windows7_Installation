@@ -29,7 +29,7 @@ To install Open edX using the Vagrant script, the following software must have a
 Installing the edX Platform
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The edX Platform is packaged in a VirtualBox image, or "box". The size of the box for the edX Aspen.1 release is 2.78GB. So, it will take a while to download.
+The edX Platform is packaged in a VirtualBox image, or "box". The size of the box for the birch release is approximately 2.8GB. So, it will take a while to download.
 
 The Vagrant installation script will download the box, create a VirtualBox virtual machine instance with Ubuntu as the operating system, and then install and configure all the code it needs into Ubuntu within that virtual machine.
 
@@ -37,7 +37,7 @@ We will install the edX Platform by running the Vagrant script from the command 
 
 All you have to do is create the directory from which you would like to run edX, and run the Vagrant script.
 
-In our example, "edx_aspen" will be the name of the directory. You can, however, use any name you like.
+In our example, "edx_birch" will be the name of the directory. You can, however, use any name you like.
 
 
 
@@ -48,23 +48,22 @@ In our example, "edx_aspen" will be the name of the directory. You can, however,
 
 |
 2. Create a directory for edX: 
-      md \edx_aspen
+      md \edx_birch
 
 |
 3. Make that directory the current directory: 
-      cd \edx_aspen
+      cd \edx_birch
 
 |
 4. Download the Vagrant script file, using the cURL programs, by copy and pasting curl line below into the command prompt window, and pressing ENTER. (You can use the mouse to copy the following line. You will have to use the mouse to also paste it into the command line window. You cannot use CTRL C followed by CTRL V.)
     curl -L https://raw.githubusercontent.com/edx/configuration/master/vagrant/release/fullstack/Vagrantfile > Vagrantfile
 
+   Note: The Vagrantfile you will download with the previous command will default to installing the kifli version of edX, not the birch version.
 
-   Note: The Vagrantfile you will download with the previous command will default to installing the kifli version of edX, not the aspen.1 version.
-
-   To install the aspen.1 version, you have to either:
+   To install the birch release:
 
    1. Create an *OPEN_RELEASE* environment variable in Windows
-       * Create the Windows environment variable: OPEN_RELEASE="aspen.1"
+       * Create the Windows environment variable: OPEN_RELEASE="named-release/birch"
        
        To do so:
           1. Click the Start button, right click My Computer and select Properties.
@@ -72,14 +71,12 @@ In our example, "edx_aspen" will be the name of the directory. You can, however,
           3. Click the Environment Variables button.
           4. In the System Variables List, at the bottom half of the window, click the New... button.
           5. Enter as the Variable Name: OPEN_RELEASE
-          6. Enter as the Variable Value: aspen.1
+          6. Enter as the Variable Value: named-release/birch
           7. Click OK to save the new system variable.
           8. Reboot the computer immediately.
    
-   2. Use an already modified Vagrantfile. One can be found in this repository: _static/Vagrantfile
 
-
-   3. Modify the newly downloaded Vagrantfile, replacing the default reference with a reference to the aspen.1 version.
+   2. Modify the newly downloaded Vagrantfile, replacing the default reference with a reference to the named-release/birch version.
    
 |
 5. Install the Vagrant hostsupdater plugin:
