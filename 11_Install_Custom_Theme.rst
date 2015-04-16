@@ -6,10 +6,12 @@ It is possible to customize your instance of Open edX, though it might now be as
 
 The team at edX.org says that they plan to provide a more straightforward means of doing so.
 
-Meanwhile, the theme known as the "Stanford-Online edX Theme" is available, and is said to provide some facility whereby one can more easily customize the learning management system (LMS) of Open edX. The content management system (CMS) Studio is not affected by this customization.
+Meanwhile, the theme known as the "Stanford-Online edX Theme" is available, and is said to provide some facility whereby one can more easily customize the learning management system (LMS) of Open edX. 
+
+   .. image:: https://cloud.githubusercontent.com/assets/8691899/7189110/8386388a-e44a-11e4-99a0-59b7b8373943.jpg
 
 
-Generally speaking to customize the theme of an Open edX instance:
+The content management system (CMS) Studio look-and-feel will not affected by this customization.
 
 The Process
 ^^^^^^^^^^^
@@ -53,6 +55,4 @@ The Process
     paver update_assets lms --settings-aws
 
 Upon successful completing of the above steps, you will see the Stanford Theme upon restarting the web server
-
-
 
