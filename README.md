@@ -78,3 +78,4 @@ Initial Contributors
 - Fernan Aguero
 - Jonathan Peter
 - Nilesh Londhe
+- Stuart O'Day
