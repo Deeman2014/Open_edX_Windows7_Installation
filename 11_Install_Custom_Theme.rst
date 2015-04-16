@@ -1,8 +1,8 @@
 11. Install Custom Theming
 ==========================
-It is possible to customize your instance of Open edX, though it might not be as simple and straightforward as some mightlike.
+It is possible to customize the look-and-feel of your instance of Open edX, though it might not be as simple and straightforward as some mightlike.
 
-The team at edX.org says that they plan to provide a more straightforward means of doing so.
+The team at edX.org says that they plan to provide a more straightforward means of doing so at some point in the future.
 
 Meanwhile, the theme known as the "Stanford-Online edX Theme" is available, and is said to provide some facility whereby one can more easily customize the learning management system (LMS) of Open edX. 
 
