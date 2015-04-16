@@ -52,5 +52,5 @@ The Process
    
     paver update_assets lms --settings-aws
 
-Upon successful completing of the above steps, you will see the Stanford Theme upon restarting the web server
+Upon successfully completing the above steps, you will see the Stanford Theme upon restarting the web server.
 
