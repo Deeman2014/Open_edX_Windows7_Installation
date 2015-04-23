@@ -50,9 +50,9 @@ The Process
 
     cd /edx/app/edxapp/edx-platform
    
-    paver update_assets lms --settings=aws
+    paver update_assets lms - -settings=aws
     
-    NB. The above command has two "-" in front of settings. Make sure there are too dashes.
+    NB. The above command has two "-" in front of settings, with no space between the two dashes.
 
 Upon successfully completing the above steps, you will see the Stanford Theme upon restarting the web server.
 
