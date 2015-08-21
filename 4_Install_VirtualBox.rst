@@ -28,8 +28,7 @@ The homepage for Oracle VirtualBox is here: https://www.virtualbox.org/
 You can find the versions you need for 64-bit Windows 7 here:
 
 - http://download.virtualbox.org/virtualbox/4.3.16/VirtualBox-4.3.16-95972-Win.exe 
-- http://download.virtualbox.org/virtualbox/4.3.16/Oracle_VM_Virtualx_Extension_Pack-4.3.16-95972.vbox-extpack
-
+- http://download.virtualbox.org/virtualbox/4.3.16/Oracle_VM_VirtualBox_Extension_Pack-4.3.16-95972.vbox-extpack
 |
 Installing VirtualBox
 ^^^^^^^^^^^^^^^^^^^^^
