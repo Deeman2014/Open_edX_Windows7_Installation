@@ -65,15 +65,15 @@ So, let "edx_birch" will be the name of the directory. You can, however, use any
 
    To install the birch release:
 
-   1. Create an *OPEN_RELEASE* environment variable in Windows
-       * Create the Windows environment variable: OPEN_RELEASE="named-release/birch"
+   1. Create an *OPENEDX_RELEASE* environment variable in Windows
+       * Create the Windows environment variable: OPENEDX_RELEASE="named-release/birch"
        
        To do so:
           1. Click the Start button, right click My Computer and select Properties.
           2. Click the Advanced Systems Settings option on the panel on the left.
           3. Click the Environment Variables button.
           4. In the System Variables List, at the bottom half of the window, click the New... button.
-          5. Enter as the Variable Name: OPEN_RELEASE
+          5. Enter as the Variable Name: OPENEDX_RELEASE
           6. Enter as the Variable Value: named-release/birch
           7. Click OK to save the new system variable.
           8. Reboot the computer immediately.
