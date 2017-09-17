@@ -50,7 +50,7 @@ The Process
 
     cd /edx/app/edxapp/edx-platform
    
-    paver update_assets lms - -settings=aws
+    paver update_assets lms --settings=aws
     
     NB. The above command has two "-" in front of settings, with no space between the two dashes.
 
